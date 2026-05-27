@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+    <defs>
+        <linearGradient id="instagramGradient" x1="3" x2="21" y1="21" y2="3" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#feda75"/>
+            <stop offset=".25" stop-color="#fa7e1e"/>
+            <stop offset=".5" stop-color="#d62976"/>
+            <stop offset=".75" stop-color="#962fbf"/>
+            <stop offset="1" stop-color="#4f5bd5"/>
+        </linearGradient>
+    </defs>
+    <path fill="url(#instagramGradient)" d="M7.1 2h9.8A5.1 5.1 0 0 1 22 7.1v9.8a5.1 5.1 0 0 1-5.1 5.1H7.1A5.1 5.1 0 0 1 2 16.9V7.1A5.1 5.1 0 0 1 7.1 2Zm.18 1.8A3.48 3.48 0 0 0 3.8 7.28v9.44a3.48 3.48 0 0 0 3.48 3.48h9.44a3.48 3.48 0 0 0 3.48-3.48V7.28a3.48 3.48 0 0 0-3.48-3.48H7.28Z"/>
+    <path fill="url(#instagramGradient)" d="M12 7.05A4.95 4.95 0 1 1 12 16.95 4.95 4.95 0 0 1 12 7.05Zm0 1.8a3.15 3.15 0 1 0 0 6.3 3.15 3.15 0 0 0 0-6.3Z"/>
+    <path fill="url(#instagramGradient)" d="M17.15 6.65a1.18 1.18 0 1 1 0 2.36 1.18 1.18 0 0 1 0-2.36Z"/>
+</svg>

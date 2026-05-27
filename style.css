@@ -239,10 +239,21 @@ body {
 }
 
 /* Tampilan halaman Kontak */
+.contact-section {
+    max-width: 1120px;
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 0.9fr);
+    align-items: start;
+    gap: 24px;
+    margin-top: 30px;
+}
+
 .contact-list {
     display: grid;
     gap: 16px;
-    margin-top: 30px;
 }
 
 .contact-item {
@@ -304,6 +315,17 @@ body {
     text-decoration: underline;
 }
 
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-link .contact-icon {
+    width: 24px;
+    height: 24px;
+}
+
 .maps-link {
     display: inline-flex;
     align-items: center;
@@ -322,6 +344,17 @@ body {
 
 .maps-link:hover {
     background: #18774f;
+}
+
+.contact-photo-slider {
+    position: sticky;
+    top: 88px;
+    border-radius: 14px;
+    box-shadow: 0 16px 34px rgba(18, 61, 45, 0.14);
+}
+
+.contact-photo-slider .slide img {
+    height: 620px;
 }
 
 .slider-track {
@@ -423,7 +456,20 @@ body {
         grid-template-columns: 1fr;
     }
 
+    .contact-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-photo-slider {
+        position: relative;
+        top: auto;
+    }
+
     .slide img {
         height: 190px;
+    }
+
+    .contact-photo-slider .slide img {
+        height: 260px;
     }
 }
